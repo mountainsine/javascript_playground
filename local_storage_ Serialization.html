@@ -1,0 +1,21 @@
+<html>
+    <body>
+        Local Storage
+    </body>
+
+</html>
+<script type="text/javascript">
+    let myObj = {
+        name: "Jordan",
+        age: 56
+    }
+
+    // BELOW STRINGIFY IS THE "METHOD"
+    // CAPITALIZATION MATTERS for the 'JSON' arguement
+    let myObjSerialized = JSON.stringify(myObj);
+    localStorage.setItem("testKey", JSON.stringify(myObj));
+    //console.log(myObjSerialized); /// test log
+    
+
+    ///console.log(localStorage); /// TestLog
+</script>
