@@ -28,11 +28,11 @@ selectedColors[2] ='green';
 
 //// ======= CALCULATE A VALUE
 
-function square(number){
-    return number * number;
-}
-let number = square(2);
-console.log(number);
+// function square(number){
+//     return number * number;
+// }
+// let number = square(2);
+// console.log(number);
 // let name = 'Mosh';
 // //console.log('hello world');;
 
@@ -42,14 +42,14 @@ let aTestMessage = 'Hello World';
 console.log(aTestMessage);
 
 
-function isUserLoggedIn(){
-    let isUserLoggedIn = "TEST";
-    if (theuserProfileZone.length > 0){
-      dynamicUserProfile.setAttribute("src", "A STRING");
-    } else {
-      dynamicUserProfile.setAttribute("src", "WELCOME")
-    }
+// function isUserLoggedIn(){
+//     let isUserLoggedIn = "TEST";
+//     if (theuserProfileZone.length > 0){
+//       dynamicUserProfile.setAttribute("src", "A STRING");
+//     } else {
+//       dynamicUserProfile.setAttribute("src", "WELCOME")
+//     }
   
-  }
+//   }
   
   
